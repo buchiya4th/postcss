@@ -1,0 +1,27 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:buchiya4th1/postcss.git",
+  "author": "buchiya4th <buchiya4th@gmail.com>",
+  "license": "MIT",
+  "browserslist": "last 2 versions",
+  "scripts": {
+    "watch:css": "postcss src/css/style.css -d dist/css -m -w",
+    "build:css": "postcss src/css/style.css -d dist/css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "cssnano": "^3.10.0",
+    "postcss-cli": "^4.1.0",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-custom-properties": "^6.1.0",
+    "postcss-import": "^10.0.0",
+    "postcss-mixins": "^6.0.1",
+    "postcss-nesting": "^4.0.1",
+    "postcss-normalize": "^4.0.0",
+    "postcss-reporter": "^4.0.0",
+    "postcss-utilities": "^0.7.0",
+    "stylelint": "^7.13.0"
+  }
+}
