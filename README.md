@@ -38,6 +38,33 @@ CLIで扱えるようにする。
 
 ### postcss-normalize
 ノーマライズ。
+http://coliss.com/articles/build-websites/operation/css/use-the-parts-of-normalize-css-you-need.html
+
+package.jsonに追加
+
+```
+{
+  {
+    "browserslist": "last 2 versions"
+  }
+}
+```
+
+postcss.config.jsに追加
+
+```
+module.exports = (ctx) => ({
+  plugins: [
+    require('postcss-normalize')
+  ]
+});
+```
+
+cssに追加
+
+```
+@import-normalize;
+```
 
 ### postcss-reporter
 stylelintログを見やすくして表示

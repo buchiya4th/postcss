@@ -2,9 +2,8 @@
 
 @import-normalize;
 
-@import "foundation/variable.css";
 @import "foundation/mixin.css";
-@import "foundation/base.css";
+@import "foundation/variable.css";
 @import "foundation/media.css";
-
+@import "foundation/base.css";
 
