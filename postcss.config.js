@@ -7,7 +7,10 @@ module.exports = (ctx) => ({
       ]
     }),
     require('postcss-mixins'),
-    require('postcss-normalize'),
+    require('postcss-normalize')({
+      forceImport: true,
+      browsers: 'last 2 versions'
+    }),
     require('postcss-utilities'),
     require('postcss-custom-properties'),
     require('postcss-custom-media'),

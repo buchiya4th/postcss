@@ -1950,6 +1950,13 @@ postcss-simple-vars@^4.0.0:
   dependencies:
     postcss "^6.0.1"
 
+postcss-sorting@^3.0.0, postcss-sorting@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-3.0.1.tgz#13d42b255e7881fb33d19dcaa4085580be90664c"
+  dependencies:
+    lodash "^4.17.4"
+    postcss "^6.0.1"
+
 postcss-svgo@^2.1.1:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/postcss-svgo/-/postcss-svgo-2.1.6.tgz#b6df18aa613b666e133f08adb5219c2684ac108d"
@@ -2431,7 +2438,16 @@ stylehacks@^2.3.2:
     text-table "^0.2.0"
     write-file-stdout "0.0.2"
 
-stylelint@^7.13.0:
+stylelint-order@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-0.5.0.tgz#6e34bbd755341216488d3af4b43237eb5ac40b6e"
+  dependencies:
+    lodash "^4.17.4"
+    postcss "^6.0.1"
+    postcss-sorting "^3.0.0"
+    stylelint "^7.11.0"
+
+stylelint@^7.11.0, stylelint@^7.13.0:
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-7.13.0.tgz#111f97b6da72e775c80800d6bb6f5f869997785d"
   dependencies:

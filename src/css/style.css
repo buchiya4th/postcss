@@ -1,9 +1,11 @@
 @charset "utf-8";
 
-@import-normalize;
-
 @import "foundation/mixin.css";
 @import "foundation/variable.css";
 @import "foundation/media.css";
 @import "foundation/base.css";
 
+@import "object/component/form.css";
+@import "object/component/list.css";
+@import "object/component/table.css";
+@import "object/component/typography.css";
