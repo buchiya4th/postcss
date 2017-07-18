@@ -1,10 +1,12 @@
 @charset "utf-8";
 
+/* foundation */
 @import "foundation/mixin.css";
 @import "foundation/variable.css";
 @import "foundation/media.css";
 @import "foundation/base.css";
 
+/* object */
 @import "object/component/form.css";
 @import "object/component/list.css";
 @import "object/component/table.css";

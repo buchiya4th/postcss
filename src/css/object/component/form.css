@@ -1,5 +1,43 @@
+@add-mixin placeholderColor $placeholderColor;
+
+/*
+カスタマイズしたい場合に有効にする
+[CSSのappearanceを使ったセレクトボックスのカスタマイズ](https://edge.sincar.jp/web/selectbox-appearance-customize/)
+*/
+/* select,input,textarea {
+  appearance: none;
+} */
 
 input[type="text"],
 select,
 textarea {
+  font-family: var(--basicFont);
 }
+
+input[type="text"],
+textarea {
+  /* padding: 2px 8px; */
+  /* border: 1px solid $formBorder; */
+  /* border-radius: 4px; */
+}
+textarea {
+  /* 無効 */
+  /* resize: none; */
+  /* 横のみOK */
+  /* resize: horizontal; */
+  /* 縦のみOK */
+  /* resize: vertical; */
+}
+
+input[type="button"],
+button {
+  cursor: pointer;
+}
+
+/* 無効時のスタイル */
+input[readonly],
+input[disabled],
+select[disabled] {
+  background: $formBg;
+}
+

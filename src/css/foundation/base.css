@@ -3,3 +3,15 @@
 *:after {
   box-sizing: border-box;
 }
+
+body {
+  font-family: Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProW3", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
