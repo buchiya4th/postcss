@@ -138,3 +138,7 @@ ATOM, VSCodeは`postcss-sorting`パッケージを入れる。
 CSSの構文チェックツール。
 
 [PostCSSとstylelintの環境構築](http://qiita.com/buchiya4th/items/01b4ad050b7c59b48539)
+
+## Sassとの違い
+* ネスト - `&`を必ず先頭につける
+* 変数 - `$`ではなく`--`（ハイフン2つ）で宣言し、使用時は`var(--XXXX)`のように`var()`で変数を囲う
