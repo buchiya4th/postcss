@@ -2,7 +2,7 @@ ul, ol {
   display: table;
   list-style: none;
   padding-left: 0;
-  & li {
+  & > li {
     display: table-row;
     &:before {
       display: table-cell;
@@ -17,14 +17,14 @@ ul, ol {
   }
 }
 ul {
-  & li {
+  & > li {
     &:before {
       content: "•";
     }
   }
 }
 ol {
-  & li {
+  & > li {
     counter-increment: table-ol;
     &:before {
       content: counter(table-ol) ".";
